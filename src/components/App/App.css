@@ -1,0 +1,35 @@
+.app {
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+  background: grey;
+  padding: 15px;
+  border-radius: 10px;
+  flex-wrap: wrap;
+}
+
+.app__left {
+  width: 30%;
+}
+
+.app__right {
+  width: 60%
+}
+
+.app__buttons {
+  width: 100%;
+  margin-top: 8px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.app__button {
+  padding: 7px 15px;
+  border-radius: 15px;
+  background:goldenrod;
+  cursor: pointer;
+}
+
+.app__button:not(:last-child) {
+  margin-right: 8px;
+}

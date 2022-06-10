@@ -1,0 +1,8 @@
+.item__wrapper {
+  width: 100%;
+  padding: 5px 10px;
+  background: blue;
+  margin: 5px ;
+  border-radius: 15px;
+  cursor: pointer;
+}
